@@ -2,6 +2,7 @@
 import { onBeforeMount } from '@vue/runtime-core'
 import { computed } from '@vue/reactivity'
 import { useStore } from 'vuex'
+import Component from './component.vue'
 
 const store = useStore()
 
@@ -28,10 +29,10 @@ const saveChanges = () => {
 </script>
 <template>
     <!-- Редактируем Title -->
-    <component v-if="object?.title" fieldName="title" v-model:title="object.title" />
+    <Component v-if="object?.title" fieldName="title" v-model:title="object.title" />
 
     <!-- Редактируем Child Title первого элемента массива -->
-    <component
+    <Component
         v-if="objectFirstChild?.child_title"
         fieldName="child_title"
         v-model:child_title="objectFirstChild.child_title"
