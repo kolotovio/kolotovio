@@ -1,6 +1,6 @@
 # Hi, there! 👋
 
-_I'm Ian K. ([@kolotovio](https://github.com/kolotovio)) and i a freelance web-developer from Russia._
+_I'm Ian K. ([@kolotovio](https://github.com/kolotovio)) and i a software developer from Russia._
 
 #### Here is the stack i use for projects:
 
